@@ -1,21 +1,65 @@
 body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .post-link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-
+header {
+  min-height: 350px;
+  background-color: pink;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(/assets/banner.jpg);
+  background-size: cover;
+}
 
 footer {
-    min-height: 100px;
-    background-color: #eaecee70;
-    color: #929eaa;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
-    font-size: 14px;
+  min-height: 100px;
+  background-color: #eaecee70;
+  color: #929eaa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  font-size: 14px;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 50%;
+  background: url(/assets/kathy.png);
+  background-size: cover;
+}
+
+.main {
+  height: 100px;
+  background-color: aqua;
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.main-container {
+  max-width: 750px;
+  min-width: 600px;
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.profile-name {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.subtext {
+  margin-top: 8px;
 }
