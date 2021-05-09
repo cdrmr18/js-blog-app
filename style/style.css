@@ -41,9 +41,28 @@ footer {
 }
 
 .main {
-  margin-top: 16px;
   display: flex;
   justify-content: center;
+}
+
+.nav-button.new-post-button {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  font-size: 24px;
+  color: white;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  background-color: #004186;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.25s ease;
+}
+.nav-button.new-post-button:hover {
+  background-color: #002349;
 }
 
 .post {
@@ -52,6 +71,13 @@ footer {
   border-radius: 8px;
   min-height: 200px;
   overflow: hidden;
+  transition: all 0.25s ease;
+  cursor: pointer;
+}
+
+.post:hover {
+  transform: translate3d(0, -5px, 0);
+  box-shadow: 0 2rem 5rem 0 rgba(0, 0, 0, 0.1);
 }
 .post-content {
   flex-basis: 60%;
@@ -84,8 +110,4 @@ footer {
 .profile-name {
   font-size: 3em;
   font-weight: bold;
-}
-
-.subtext {
-  margin-top: 8px;
 }
