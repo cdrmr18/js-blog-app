@@ -3,10 +3,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.post-link {
-  text-decoration: none;
-}
-
 header {
   min-height: 350px;
   background-color: pink;
@@ -44,7 +40,18 @@ footer {
   display: flex;
   justify-content: center;
 }
+.main .navigation {
+  display: flex;
+  justify-content: flex-start;
+}
 
+.navigation a {
+  text-decoration: none;
+}
+.navigation a:hover {
+  text-decoration: none;
+  color: white;
+}
 .nav-button.new-post-button {
   height: 50px;
   width: 50px;
@@ -87,6 +94,10 @@ footer {
   font-size: 12px;
   font-weight: 600;
   color: #adb5bd;
+}
+
+.post-link {
+  text-decoration: none;
 }
 
 .post-title {

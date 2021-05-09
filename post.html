@@ -8,6 +8,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style/style.css">
         <link rel="stylesheet" href="style/post.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+            crossorigin="anonymous"></script>
     </head>
     <body>
         <div class="container">
@@ -15,9 +20,20 @@
             </header>
             <div class="main">
                 <div class="main-container">
-                    <!-- TODO: Add div class "navigation" to link back to home page HINT: make it a link -->
-                    <!-- TODO: Stylize navigation in style.css -->
-                    <!-- TODO: Add all divs for post title, post, date, post content based on ids in post.css   -->
+                    <div class="navigation mt-2">
+                        <a href="index.html" class='btn btn-outline-info'>Back</a>
+                    </div>
+                    <div class="post-container mt-3">
+                        <div id="individual-post-title " class="text-center py-4">
+                            <h2>Lorem ipsum dolor sit amet.</h2>
+                        </div>
+                        <div id="individual-post-date" class="px-3 py-3">
+                            <p>Published on Tues Oct 20 2021</p>
+                        </div>
+                        <div id="individual-post-content" class="pt-4 ps-3">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus voluptate ullam asperiores eligendi perferendis libero doloremque quo doloribus consequuntur harum!</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <footer>

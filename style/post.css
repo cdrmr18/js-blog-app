@@ -1,13 +1,14 @@
 /* ADD styling for all of the divs in post.html to match  */
 
 #individual-post-title {
-
+  font-size: 2em;
 }
 
 #individual-post-date {
-
+  border-top: 1px solid #f1f4f8;
+  border-bottom: 1px solid #f1f4f8;
+  color: #adb5bd;
 }
 
 #individual-post-content {
-
 }
